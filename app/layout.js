@@ -11,6 +11,10 @@ const dmSans = DM_Sans({
 export const metadata = {
   title: "Millo-A Furniture Workshop",
   description: "A Furniture Workshop",
+   icons: {
+    icon: '/assets/favicon.png', // Points to public/favicon.ico
+  },
+
 };
 
 export default function RootLayout({ children }) {
